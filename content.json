@@ -1,0 +1,310 @@
+{
+    "tr": {
+        "site_title": "Dr. Reşat Doğru | Tıp Doktoru & 57. Hükümet Devlet Bakanı",
+        "nav_bio": "Hakkında",
+        "nav_career": "Kariyer",
+        "nav_ministry": "Bakanlık & İcraatlar",
+        "nav_legislative": "Meclis & Yasama",
+        "nav_publications": "Yayınlar",
+        "nav_gallery": "Galeri",
+        "nav_contact": "İletişim",
+        "hero_title": "Dr. Reşat Doğru",
+        "hero_subtitle": "57. Hükümet Devlet Bakanı & 21, 23, 24. Dönem Milletvekili",
+        "hero_desc": "Türk Dünyası'na adanmış bir ömür, cerrah titizliğiyle yürütülen devlet işleri. TİKA'nın kurumsallaşmasından TBMM Sağlık Komisyonu çalışmalarına uzanan hizmet yolu.",
+        "bio_title": "Hakkında",
+        "bio_text": "1955 Tokat Erbaa doğumlu olan Dr. Reşat Doğru, İstanbul Üniversitesi Cerrahpaşa Tıp Fakültesi mezunudur. Ankara SSK Dışkapı Hastanesi'nde Genel Cerrahi ihtisasını tamamlamış, Yozgat ve Tokat'ta başhekimlik görevlerinde bulunmuştur. 1999 yılında siyasete atılarak MHP Tokat Milletvekili seçilmiş, 57. Hükümet'te Türk Dünyasından Sorumlu Devlet Bakanı olarak görev yapmıştır.",
+        "bio_current": "Halen Ali Tepe Sağlık, Eğitim ve Teşvik Vakfı Mütevelli Heyeti Başkanı olarak toplumsal projelere liderlik etmektedir.",
+        "career_title": "Kariyer",
+        "timeline_1_year": "1985",
+        "timeline_1_title": "Genel Cerrahi Uzmanlığı",
+        "timeline_1_desc": "Ankara SSK Dışkapı Eğitim ve Araştırma Hastanesi'nde Genel Cerrahi uzmanlığını tamamladı.",
+        "timeline_2_year": "1990'lar",
+        "timeline_2_title": "Başhekimlik",
+        "timeline_2_desc": "Yozgat Devlet Hastanesi'nde Başhekim ve Tokat Devlet Hastanesi'nde uzman hekim olarak görev yaptı.",
+        "timeline_3_year": "1994-2002",
+        "timeline_3_title": "Tokat Tabip Odası Başkanlığı",
+        "timeline_3_desc": "İki dönem Tokat Tabip Odası Başkanlığı görevini yürüttü.",
+        "timeline_4_year": "1999-2015",
+        "timeline_4_title": "Milletvekilliği",
+        "timeline_4_desc": "21., 23. ve 24. dönemlerde Tokat Milletvekili olarak TBMM'de görev aldı.",
+        "timeline_5_year": "2002-2003",
+        "timeline_5_title": "Devlet Bakanlığı",
+        "timeline_5_desc": "57. Hükümette Türk Dünyasından Sorumlu Devlet Bakanı olarak görev yaptı.",
+        "timeline_6_year": "Günümüz",
+        "timeline_6_title": "Vakıf Başkanlığı",
+        "timeline_6_desc": "Ali Tepe Sağlık, Eğitim ve Teşvik Vakfı Mütevelli Heyeti Başkanı olarak görevine devam etmektedir.",
+        "ministry_title": "Bakanlık İcraatları (57. Hükümet)",
+        "ministry_subtitle": "Türk Dünyasından Sorumlu Devlet Bakanlığı Dönemi",
+        "ministry_items": [
+            {
+                "title": "TİKA'nın Yeniden Yapılandırılması",
+                "desc": "Türk İşbirliği ve Kalkınma İdaresi Başkanlığı'nın (TİKA) Orta Asya ve Balkanlar'daki ofis sayısının artırılması ve proje kapasitesinin genişletilmesi."
+            },
+            {
+                "title": "Ahıska Türkleri ve Gagavuzya",
+                "desc": "Ahıska Türklerinin yurda dönüş süreçlerinin hızlandırılması ve Moldova Gagavuz Yeri Özerk Bölgesi'nde 'Atatürk Kütüphanesi' ve kültür merkezlerinin inşası."
+            },
+            {
+                "title": "Azerbaycan ile Stratejik İşbirlikleri",
+                "desc": "Azerbaycan Cumhuriyeti ile eğitim, teknik ve haritacılık alanlarında bilimsel işbirliği protokollerinin imzalanması ve hayata geçirilmesi."
+            },
+            {
+                "title": "Türk Dünyası Kurultayları",
+                "desc": "Türk Devlet ve Toplulukları Dostluk, Kardeşlik ve İşbirliği Kurultayları'nın devlet himayesinde daha etkin hale getirilmesi."
+            }
+        ],
+        "legislative_title": "TBMM Yasama Faaliyetleri",
+        "legislative_subtitle": "Kanun Teklifleri ve Soru Önergeleri",
+        "legislative_desc": "21., 23. ve 24. Dönem Tokat Milletvekili olarak; bölge kalkınması, sağlık çalışanlarının hakları ve eğitim alanında verilen kanun teklifleri ve önergeler.",
+        "legislative_items": [
+            {
+                "type": "Kanun Teklifi",
+                "code": "2/499",
+                "date": "06.06.2000",
+                "title": "Gazi Osman Paşa Üniversitesi Fakülte Kurulumu",
+                "desc": "Tokat'ta Gazi Osman Paşa Üniversitesine bağlı Mühendislik ve Güzel Sanatlar Fakültelerinin kurulmasına dair kanun teklifi (İlk İmza Sahibi)."
+            },
+            {
+                "type": "Kanun Teklifi",
+                "code": "2/863",
+                "date": "2001",
+                "title": "Belediye Başkanları Pasaport Kanunu",
+                "desc": "Belde Belediye Başkanlarına Hususi Damgalı Pasaport verilmesine dair kanun teklifi."
+            },
+            {
+                "type": "Kanun Teklifi",
+                "code": "2/2228",
+                "date": "2003",
+                "title": "Çiftçi Destekleme Kanunu",
+                "desc": "Tabii afetlerden zarar gören çiftçilere yapılacak yardımların kapsamının genişletilmesi hakkında kanun teklifi."
+            },
+            {
+                "type": "Kanun Teklifi",
+                "code": "2/879",
+                "date": "2001",
+                "title": "Anayasa 59. Madde Değişikliği",
+                "desc": "Sporun ve sporcunun korunmasına yönelik Anayasa değişikliği teklifi."
+            }
+        ],
+        "motions_title": "Soru Önergeleri ve Meclis Konuşmaları",
+        "motions_items": [
+            {
+                "type": "Sözlü Soru Önergesi",
+                "code": "6/1674",
+                "title": "Sigara Fabrikaları ve Çalışan Hakları",
+                "desc": "Sigara fabrikalarının özelleştirilmesi sonrası çalışanların mağduriyetinin giderilmesine ilişkin Başbakan'a yöneltilen soru önergesi."
+            },
+            {
+                "type": "Genel Kurul Konuşması",
+                "date": "18.11.2014",
+                "title": "Askeri Okul Öğrencilerinin Tazminat Sorunu",
+                "desc": "Askeri okullardan ayrılan öğrencilerin ailelerinden istenen yüksek tazminatların yarattığı mağduriyet üzerine meclis konuşması."
+            },
+            {
+                "type": "Yazılı Soru Önergesi",
+                "code": "7/16334",
+                "title": "TEKEL İşçilerinin Durumu",
+                "desc": "TEKEL işçilerinin göreve iadeleri ve özlük haklarına ilişkin Başbakanlık makamına sunulan yazılı soru önergesi."
+            },
+            {
+                "type": "Komisyon Üyeliği",
+                "title": "Sağlık, Aile ve Sosyal İşler Komisyonu",
+                "desc": "Sağlık çalışanlarının özlük hakları ve Tam Gün Yasası görüşmelerinde aktif komisyon üyeliği."
+            }
+        ],
+        "tbmm_profile_btn": "TBMM Resmi Profilini İncele",
+        "tbmm_profile_url": "https://www.tbmm.gov.tr/milletvekili/MilletvekiliDetay?DonemId=f72877c2-f50a-037b-e050-007f01005610&Id=f72877c2-d569-037b-e050-007f01005610",
+        "awards_title": "Ödüller ve Nişanlar",
+        "award_items": [
+            {
+                "title": "Türk Dünyası Hizmet Ödülü",
+                "org": "TÜRKSAV",
+                "year": "2003"
+            },
+            {
+                "title": "Yılın Siyasetçisi",
+                "org": "Tokatlılar Derneği Federasyonu",
+                "year": "2010"
+            },
+            {
+                "title": "Onur Plaketi",
+                "org": "Türk Tabipleri Birliği",
+                "year": "1998"
+            }
+        ],
+        "publications_title": "Yayınlar",
+        "pub_1_title": "Türk Dünyası ve Gerçekler",
+        "pub_1_desc": "Türk dünyasının siyasi, kültürel ve ekonomik gerçeklerini ve Bakanlık dönemindeki tecrübelerini ele alan kapsamlı eser.",
+        "pub_1_year": "2019",
+        "pub_2_title": "Bağ: Bağımlılık Kader Değildir",
+        "pub_2_desc": "Bir tıp doktoru gözüyle bağımlılıkla mücadele yöntemleri ve sosyal politikalar.",
+        "pub_2_year": "2020",
+        "gallery_title": "Galeri",
+        "contact_title": "İletişim",
+        "contact_subtitle": "Bize Ulaşın",
+        "form_name": "Ad Soyad",
+        "form_email": "E-posta",
+        "form_subject": "Konu",
+        "form_message": "Mesaj",
+        "form_submit": "Mesaj Gönder",
+        "form_success": "Mesajınız başarıyla gönderildi. Teşekkürler!",
+        "form_error_empty": "Lütfen tüm alanları doldurun.",
+        "form_error_email": "Lütfen geçerli bir e-posta adresi girin.",
+        "footer_rights": "Tüm hakları saklıdır."
+    },
+    "en": {
+        "site_title": "Dr. Resat Dogru | Former Minister of State",
+        "nav_bio": "Biography",
+        "nav_career": "Career",
+        "nav_ministry": "Ministry Works",
+        "nav_legislative": "Parliamentary Work",
+        "nav_publications": "Publications",
+        "nav_gallery": "Gallery",
+        "nav_contact": "Contact",
+        "hero_title": "Dr. Resat Dogru",
+        "hero_subtitle": "Former Minister of State - 57th Government",
+        "hero_desc": "A lifetime dedicated to the Turkic World, state affairs conducted with surgical precision. A service journey from institutionalizing TIKA to TBMM Health Commission work.",
+        "bio_title": "Biography",
+        "bio_text": "Born in 1955 in Erbaa, Tokat, Dr. Resat Dogru graduated from Istanbul University Cerrahpaşa Faculty of Medicine. He completed his General Surgery specialization at Ankara SSK Dışkapı Hospital and served as Chief Physician in Yozgat and Tokat. He entered politics in 1999 as MHP Tokat Member of Parliament and served as Minister of State for the Turkic World in the 57th Government.",
+        "bio_current": "Currently serves as the Chairman of the Board of Trustees of Ali Tepe Health, Education and Incentive Foundation, leading social projects.",
+        "career_title": "Career",
+        "timeline_1_year": "1985",
+        "timeline_1_title": "General Surgery Specialization",
+        "timeline_1_desc": "Completed General Surgery specialization at Ankara SSK Dışkapı Training and Research Hospital.",
+        "timeline_2_year": "1990s",
+        "timeline_2_title": "Chief Physician",
+        "timeline_2_desc": "Served as Chief Physician at Yozgat State Hospital and specialist physician at Tokat State Hospital.",
+        "timeline_3_year": "1994-2002",
+        "timeline_3_title": "Medical Chamber President",
+        "timeline_3_desc": "Served as President of Tokat Medical Chamber for two terms.",
+        "timeline_4_year": "1999-2015",
+        "timeline_4_title": "Member of Parliament",
+        "timeline_4_desc": "Served as Member of Parliament for Tokat in the 21st, 23rd, and 24th parliamentary terms.",
+        "timeline_5_year": "2002-2003",
+        "timeline_5_title": "Minister of State",
+        "timeline_5_desc": "Served as Minister of State for the Turkic World in the 57th Government.",
+        "timeline_6_year": "Present",
+        "timeline_6_title": "Foundation Chairman",
+        "timeline_6_desc": "Continues to serve as Chairman of the Board of Trustees of Ali Tepe Health, Education and Incentive Foundation.",
+        "ministry_title": "Ministry Actions (57th Govt)",
+        "ministry_subtitle": "Ministry of State for the Turkic World Period",
+        "ministry_items": [
+            {
+                "title": "Restructuring TIKA",
+                "desc": "Expanding the project capacity and office network of the Turkish Cooperation and Coordination Agency in Central Asia and the Balkans."
+            },
+            {
+                "title": "Ahiska Turks and Gagauzia",
+                "desc": "Accelerating the return process of Ahiska Turks and constructing 'Atatürk Library' and cultural centers in Moldova Gagauz Yeri Autonomous Region."
+            },
+            {
+                "title": "Strategic Cooperation with Azerbaijan",
+                "desc": "Signing and implementing scientific cooperation protocols with the Republic of Azerbaijan in education, technical and cartography fields."
+            },
+            {
+                "title": "Turkic World Congresses",
+                "desc": "Making the Congresses of Turkic States and Communities Friendship, Brotherhood and Cooperation more effective under state patronage."
+            }
+        ],
+        "legislative_title": "Legislative Activities",
+        "legislative_subtitle": "Law Proposals & Motions",
+        "legislative_desc": "As a Member of Parliament for Tokat in 21st, 23rd and 24th terms; law proposals and motions in regional development, healthcare workers' rights and education.",
+        "legislative_items": [
+            {
+                "type": "Law Proposal",
+                "code": "2/499",
+                "date": "06.06.2000",
+                "title": "Gazi Osman Pasha University Faculty Establishment",
+                "desc": "Law proposal for establishing Engineering and Fine Arts Faculties at Gazi Osman Pasha University in Tokat (Primary Signatory)."
+            },
+            {
+                "type": "Law Proposal",
+                "code": "2/863",
+                "date": "2001",
+                "title": "Municipal Mayors Passport Law",
+                "desc": "Law proposal for special stamped passports for town mayors."
+            },
+            {
+                "type": "Law Proposal",
+                "code": "2/2228",
+                "date": "2003",
+                "title": "Farmers Support Law",
+                "desc": "Law proposal for expanding aid to farmers affected by natural disasters."
+            },
+            {
+                "type": "Law Proposal",
+                "code": "2/879",
+                "date": "2001",
+                "title": "Constitutional Article 59 Amendment",
+                "desc": "Constitutional amendment proposal for the protection of sports and athletes."
+            }
+        ],
+        "motions_title": "Motions and Assembly Speeches",
+        "motions_items": [
+            {
+                "type": "Oral Question",
+                "code": "6/1674",
+                "title": "Tobacco Factories and Workers' Rights",
+                "desc": "Oral question to the Prime Minister regarding remedying the grievances of workers after the privatization of tobacco factories."
+            },
+            {
+                "type": "Assembly Speech",
+                "date": "18.11.2014",
+                "title": "Military School Students' Compensation Issue",
+                "desc": "Assembly speech on the grievances caused by high compensation demanded from families of students leaving military schools."
+            },
+            {
+                "type": "Written Question",
+                "code": "7/16334",
+                "title": "TEKEL Workers' Situation",
+                "desc": "Written question to the Prime Ministry regarding the reinstatement and rights of TEKEL workers."
+            },
+            {
+                "type": "Commission Membership",
+                "title": "Health, Family and Social Affairs Commission",
+                "desc": "Active commission membership in health workers' rights and Full-Time Law discussions."
+            }
+        ],
+        "tbmm_profile_btn": "View Official Parliament Profile",
+        "tbmm_profile_url": "https://www.tbmm.gov.tr/milletvekili/MilletvekiliDetay?DonemId=f72877c2-f50a-037b-e050-007f01005610&Id=f72877c2-d569-037b-e050-007f01005610",
+        "awards_title": "Awards and Honors",
+        "award_items": [
+            {
+                "title": "Turkic World Service Award",
+                "org": "TÜRKSAV",
+                "year": "2003"
+            },
+            {
+                "title": "Politician of the Year",
+                "org": "Federation of Tokat Associations",
+                "year": "2010"
+            },
+            {
+                "title": "Honor Plaque",
+                "org": "Turkish Medical Association",
+                "year": "1998"
+            }
+        ],
+        "publications_title": "Publications",
+        "pub_1_title": "Turkic World Realities",
+        "pub_1_desc": "A comprehensive work addressing the political, cultural and economic realities of the Turkic world and experiences from the Ministry period.",
+        "pub_1_year": "2019",
+        "pub_2_title": "Bağ: Addiction is Not Destiny",
+        "pub_2_desc": "Methods of combating addiction and social policies from a medical doctor's perspective.",
+        "pub_2_year": "2020",
+        "gallery_title": "Gallery",
+        "contact_title": "Contact",
+        "form_submit": "Send Message"
+    },
+    "images": {
+        "portrait": "assets/images/portrait.jpg",
+        "gallery": [
+            "assets/images/gallery-1.jpg",
+            "assets/images/gallery-2.jpg",
+            "assets/images/gallery-3.jpg",
+            "assets/images/gallery-4.jpg",
+            "assets/images/gallery-5.jpg",
+            "assets/images/gallery-6.jpg"
+        ]
+    }
+}
