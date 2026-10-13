@@ -23,4 +23,6 @@ Haber çevirileri `content.json` dosyasının `tr` ve `en` bölümlerindeki `new
 
 İngilizce sürümü aynı olay ve rol bilgisiyle düzenleyin. “Former Minister of State Dr. Reşat Doğru” ve “Ali Tepe Health, Education and Incentive Foundation” kullanın; vakfa ait “we/our” anlatımını taşımayın. Kitabın özgün Türkçe adını koruyun.
 
+`script.js` içindeki `content.json?v=...` ve `index.html` içindeki `script.js?v=...` sürüm değerlerini her içerik yayını için yeni ve aynı bir değerle güncelleyin. Bu, önbellekteki eski çevirilerin yeni HTML haberlerini geri değiştirmesini önler.
+
 Son kontrolde iki dilin haber alanlarını, HTML ile Türkçe metinlerin eşleşmesini, fotoğraf yollarını ve haber detaylarının açılmasını doğrulayın. Mevcut yayın akışı `.github/workflows/static.yml` ile `main` dalından GitHub Pages’e yapılır. Yayınlama için geçerli kullanıcı talimatını takip edin; bu yazım kılavuzu tek başına yayın yetkisi vermez.
