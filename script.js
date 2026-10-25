@@ -11,7 +11,7 @@ let currentLang = 'tr';
 // =====================
 async function loadContent() {
     try {
-        const response = await fetch('content.json?v=20261025-genclik-ve-gelecek', { cache: 'no-cache' });
+        const response = await fetch('content.json?v=20261025-genclik-ve-gelecek-afissiz', { cache: 'no-cache' });
         const data = await response.json();
         translations = data;
 
