@@ -168,7 +168,13 @@
         "form_success": "Mesajınız başarıyla gönderildi. Teşekkürler!",
         "form_error_empty": "Lütfen tüm alanları doldurun.",
         "form_error_email": "Lütfen geçerli bir e-posta adresi girin.",
-        "footer_rights": "Tüm hakları saklıdır."
+        "footer_rights": "Tüm hakları saklıdır.",
+        "news_4_category": "Konferans",
+        "news_4_title": "“Gençlik ve Gelecek” konferansında buluşma",
+        "news_4_summary": "Dr. Reşat Doğru, Ali Tepe Vakfı’nda Prof. Dr. Özcan Yeniçeri’nin konuşmacı olarak katıldığı “Gençlik ve Gelecek” konulu konferansta yer aldı. Programın ardından Yeniçeri’ye teşekkür plaketi takdim etti.",
+        "news_4_body_1": "Eski Devlet Bakanı Dr. Reşat Doğru, 24 Ekim 2026 Cumartesi günü saat 14.00’te Ankara’da, Ali Tepe Sağlık, Eğitim ve Teşvik Vakfı’nda düzenlenen “Gençlik ve Gelecek” konulu konferansa katıldı. Programın konuşmacısı Prof. Dr. Özcan Yeniçeri oldu.",
+        "news_4_body_2": "Vakfın mütevelli heyeti başkanlığını yürüten Doğru, konferansın ardından Yeniçeri’ye katılımı ve katkıları dolayısıyla teşekkür plaketi takdim etti.",
+        "news_4_body_3": "Plaket takdimi sırasında Doğru, Yeniçeri ve katılımcılar birlikte hatıra fotoğrafı çektirdi."
     },
     "en": {
         "site_title": "Dr. Resat Dogru | Former Minister of State",
@@ -330,7 +336,13 @@
         "news_3_body_5": "The program ended with a closing speech following the book presentation and student talks.",
         "gallery_title": "Gallery",
         "contact_title": "Contact",
-        "form_submit": "Send Message"
+        "form_submit": "Send Message",
+        "news_4_category": "Conference",
+        "news_4_title": "A gathering for the “Youth and the Future” conference",
+        "news_4_summary": "Dr. Reşat Doğru attended the “Youth and the Future” conference at the Ali Tepe Foundation, where Prof. Dr. Özcan Yeniçeri was the speaker. After the program, he presented Yeniçeri with a plaque of appreciation.",
+        "news_4_body_1": "Former Minister of State Dr. Reşat Doğru attended the “Youth and the Future” conference at the Ali Tepe Health, Education and Incentive Foundation in Ankara on Saturday, October 24, 2026, at 14:00. Prof. Dr. Özcan Yeniçeri was the speaker.",
+        "news_4_body_2": "Doğru, who serves as Chairman of the foundation’s Board of Trustees, presented Yeniçeri with a plaque of appreciation after the conference in recognition of his participation and contribution.",
+        "news_4_body_3": "Doğru, Yeniçeri and other participants posed for a commemorative photograph during the plaque presentation."
     },
     "images": {
         "portrait": "assets/images/portrait.jpg",

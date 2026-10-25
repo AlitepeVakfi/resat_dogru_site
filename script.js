@@ -11,7 +11,7 @@ let currentLang = 'tr';
 // =====================
 async function loadContent() {
     try {
-        const response = await fetch('content.json?v=20261014-news-editorial', { cache: 'no-cache' });
+        const response = await fetch('content.json?v=20261025-genclik-ve-gelecek', { cache: 'no-cache' });
         const data = await response.json();
         translations = data;
 
@@ -240,14 +240,14 @@ function openLightbox(src, caption) {
     if (cap) cap.textContent = caption;
 
     lightbox.classList.remove('hidden');
-    lightbox.classList.add('flex');
+    lightbox.classList.add('flex', 'active');
     document.body.style.overflow = 'hidden';
 }
 
 function closeLightbox() {
     const lightbox = document.getElementById('lightbox');
     lightbox.classList.add('hidden');
-    lightbox.classList.remove('flex');
+    lightbox.classList.remove('flex', 'active');
     document.body.style.overflow = '';
 }
 
