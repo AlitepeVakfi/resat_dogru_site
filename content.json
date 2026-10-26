@@ -135,7 +135,7 @@
         "pub_2_year": "2020",
         "news_eyebrow": "Güncel",
         "news_title": "Haberler",
-        "news_read_more": "Haberi ve fotoğrafları görüntüle",
+        "news_read_more": "Habere git",
         "news_1_category": "Toplumsal Farkındalık",
         "news_1_title": "Tokat’ta bağımlılıkla mücadele buluşması",
         "news_1_summary": "Dr. Reşat Doğru, Tokat’ta sivil toplum temsilcileriyle bağımlılıkla mücadeleyi konuştu. Buluşmada uyuşturucu madde kullanımı, sanal kumar ve gençleri bu tehlikelerden korumanın yolları ele alındı.",
@@ -174,7 +174,14 @@
         "news_4_summary": "Dr. Reşat Doğru, Ali Tepe Vakfı’nda Prof. Dr. Özcan Yeniçeri’nin konuşmacı olarak katıldığı “Gençlik ve Gelecek” konulu konferansta yer aldı. Programın ardından Yeniçeri’ye teşekkür plaketi takdim etti.",
         "news_4_body_1": "Eski Devlet Bakanı Dr. Reşat Doğru, 24 Ekim 2026 Cumartesi günü saat 14.00’te Ankara’da, Ali Tepe Sağlık, Eğitim ve Teşvik Vakfı’nda düzenlenen “Gençlik ve Gelecek” konulu konferansa katıldı. Programın konuşmacısı Prof. Dr. Özcan Yeniçeri oldu.",
         "news_4_body_2": "Vakfın mütevelli heyeti başkanlığını yürüten Doğru, konferansın ardından Yeniçeri’ye katılımı ve katkıları dolayısıyla teşekkür plaketi takdim etti.",
-        "news_4_body_3": "Plaket takdimi sırasında Doğru, Yeniçeri ve katılımcılar birlikte hatıra fotoğrafı çektirdi."
+        "news_4_body_3": "Plaket takdimi sırasında Doğru, Yeniçeri ve katılımcılar birlikte hatıra fotoğrafı çektirdi.",
+        "news_all": "Tüm haberler",
+        "news_back": "Haberlere dön",
+        "news_photos": "Fotoğraflar",
+        "news_open_photo": "Fotoğrafı büyüt",
+        "news_close_photo": "Fotoğrafı kapat",
+        "news_related": "Diğer haberler",
+        "news_home": "Ana sayfa"
     },
     "en": {
         "site_title": "Dr. Resat Dogru | Former Minister of State",
@@ -312,7 +319,7 @@
         "pub_2_year": "2020",
         "news_eyebrow": "Latest",
         "news_title": "News",
-        "news_read_more": "View the story and photos",
+        "news_read_more": "Read the story",
         "news_1_category": "Public Awareness",
         "news_1_title": "Discussing addiction prevention in Tokat",
         "news_1_summary": "Dr. Reşat Doğru joined civil society representatives in Tokat to discuss addiction prevention. The gathering focused on drug use, online gambling and ways to protect young people.",
@@ -342,7 +349,14 @@
         "news_4_summary": "Dr. Reşat Doğru attended the “Youth and the Future” conference at the Ali Tepe Foundation, where Prof. Dr. Özcan Yeniçeri was the speaker. After the program, he presented Yeniçeri with a plaque of appreciation.",
         "news_4_body_1": "Former Minister of State Dr. Reşat Doğru attended the “Youth and the Future” conference at the Ali Tepe Health, Education and Incentive Foundation in Ankara on Saturday, October 24, 2026, at 14:00. Prof. Dr. Özcan Yeniçeri was the speaker.",
         "news_4_body_2": "Doğru, who serves as Chairman of the foundation’s Board of Trustees, presented Yeniçeri with a plaque of appreciation after the conference in recognition of his participation and contribution.",
-        "news_4_body_3": "Doğru, Yeniçeri and other participants posed for a commemorative photograph during the plaque presentation."
+        "news_4_body_3": "Doğru, Yeniçeri and other participants posed for a commemorative photograph during the plaque presentation.",
+        "news_all": "All news",
+        "news_back": "Back to news",
+        "news_photos": "Photos",
+        "news_open_photo": "Enlarge photo",
+        "news_close_photo": "Close photo",
+        "news_related": "More news",
+        "news_home": "Home"
     },
     "images": {
         "portrait": "assets/images/portrait.jpg",
@@ -354,5 +368,116 @@
             "assets/images/gallery-5.jpg",
             "assets/images/gallery-6.jpg"
         ]
-    }
+    },
+    "news": [
+        {
+            "id": 4,
+            "slug": "genclik-ve-gelecek-konferansi",
+            "date": "2026-10-24",
+            "focus": "50% 50%",
+            "photos": [
+                {
+                    "src": "/assets/images/news/genclik-ve-gelecek/foto_1.webp",
+                    "alt": {
+                        "tr": "Gençlik ve Gelecek konferansının ardından Prof. Dr. Özcan Yeniçeri’ye plaket takdimi",
+                        "en": "Plaque presentation after the Youth and the Future conference"
+                    }
+                },
+                {
+                    "src": "/assets/images/news/genclik-ve-gelecek/foto_2.webp",
+                    "alt": {
+                        "tr": "Dr. Reşat Doğru ve katılımcılarla plaket takdiminden hatıra fotoğrafı",
+                        "en": "Dr. Reşat Doğru with Prof. Dr. Özcan Yeniçeri and other participants"
+                    }
+                },
+                {
+                    "src": "/assets/images/news/genclik-ve-gelecek/foto_3.webp",
+                    "alt": {
+                        "tr": "Gençlik ve Gelecek konferansında konuşmacı ve dinleyiciler",
+                        "en": "Speaker and audience at the Youth and the Future conference"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "slug": "2026-2027-egitim-yili-acilisi",
+            "date": "2026-10-10",
+            "focus": "50% 65%",
+            "photos": [
+                {
+                    "src": "/assets/images/news/acilis-programi/foto_1.webp",
+                    "alt": {
+                        "tr": "2026-2027 eğitim ve öğretim yılı açılış programı",
+                        "en": "Opening of the 2026-2027 academic year"
+                    }
+                },
+                {
+                    "src": "/assets/images/news/acilis-programi/foto_2.webp",
+                    "alt": {
+                        "tr": "Açılış programından bir kare",
+                        "en": "A scene from the academic year opening"
+                    }
+                },
+                {
+                    "src": "/assets/images/news/acilis-programi/foto_3.webp",
+                    "alt": {
+                        "tr": "Açılış programına katılan davetliler",
+                        "en": "Guests at the academic year opening"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "slug": "tokatli-hemsehrilerle-aksam-yemegi",
+            "date": "2026-09-24",
+            "focus": "50% 50%",
+            "photos": [
+                {
+                    "src": "/assets/images/news/tokat-aksam-yemegi/foto_1.webp",
+                    "alt": {
+                        "tr": "Tokatlı hemşehrilerin akşam yemeği buluşmasından hatıra fotoğrafı",
+                        "en": "Group photograph at the dinner with fellow Tokat residents"
+                    }
+                },
+                {
+                    "src": "/assets/images/news/tokat-aksam-yemegi/foto_2.webp",
+                    "alt": {
+                        "tr": "Akşam yemeğinde uzun sofra çevresinde sohbet eden katılımcılar",
+                        "en": "Guests sharing a meal and conversation around a long table"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "slug": "tokatta-bagimlilikla-mucadele",
+            "date": "2026-09-22",
+            "focus": "50% 50%",
+            "photos": [
+                {
+                    "src": "/assets/images/news/bagimlilikla-mucadele/foto_1.webp",
+                    "alt": {
+                        "tr": "Tokat'ta bağımlılıkla mücadele buluşması",
+                        "en": "Addiction prevention gathering in Tokat"
+                    }
+                },
+                {
+                    "src": "/assets/images/news/bagimlilikla-mucadele/foto_2.webp",
+                    "alt": {
+                        "tr": "Bağımlılıkla mücadele buluşmasından fotoğraf 2",
+                        "en": "Participants at the addiction prevention gathering"
+                    }
+                },
+                {
+                    "src": "/assets/images/news/bagimlilikla-mucadele/foto_3.webp",
+                    "alt": {
+                        "tr": "Ali Tepe Vakfı",
+                        "en": "A scene from the addiction prevention gathering"
+                    }
+                }
+            ]
+        }
+    ]
 }

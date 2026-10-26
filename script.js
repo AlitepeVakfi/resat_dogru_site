@@ -11,7 +11,7 @@ let currentLang = 'tr';
 // =====================
 async function loadContent() {
     try {
-        const response = await fetch('content.json?v=20261025-genclik-ve-gelecek-afissiz', { cache: 'no-cache' });
+        const response = await fetch('/content.json?v=20261026-news-pages', { cache: 'no-cache' });
         const data = await response.json();
         translations = data;
 
@@ -189,9 +189,26 @@ function setLanguage(lang) {
     });
 
     // Update page title
-    if (translations[lang].site_title) {
-        document.title = translations[lang].site_title;
-    }
+    const newsId = document.body.dataset.newsId;
+    const pageTitleKey = newsId ? `news_${newsId}_title` : document.body.dataset.pageTitle;
+    document.title = pageTitleKey
+        ? `${translations[lang][pageTitleKey]} | Dr. Reşat Doğru`
+        : translations[lang].site_title;
+
+    document.querySelectorAll('[data-news-date]').forEach(element => {
+        element.textContent = new Intl.DateTimeFormat(lang === 'en' ? 'en-GB' : 'tr-TR', {
+            day: 'numeric', month: 'long', year: 'numeric'
+        }).format(new Date(`${element.dateTime}T12:00:00`));
+    });
+    document.querySelectorAll('[data-news-photo]').forEach(element => {
+        const [id, index] = element.dataset.newsPhoto.split(':').map(Number);
+        const photo = translations.news?.find(item => item.id === id)?.photos[index];
+        if (photo) element.alt = photo.alt[lang];
+    });
+    document.querySelectorAll('[data-i18n-aria-label]').forEach(element => {
+        const label = translations[lang][element.dataset.i18nAriaLabel];
+        if (label) element.setAttribute('aria-label', label);
+    });
 
     updateLanguageToggleUI(lang);
     localStorage.setItem('preferred-lang', lang);
@@ -236,7 +253,10 @@ function openLightbox(src, caption) {
     const img = document.getElementById('lightbox-img');
     const cap = document.getElementById('lightbox-caption');
 
-    if (img) img.src = src;
+    if (img) {
+        img.src = src;
+        img.alt = caption;
+    }
     if (cap) cap.textContent = caption;
 
     lightbox.classList.remove('hidden');
@@ -258,8 +278,11 @@ document.addEventListener('DOMContentLoaded', function () {
     // Load content from JSON
     loadContent();
 
-    document.querySelectorAll('.news-gallery img').forEach((image) => {
-        image.addEventListener('click', () => openLightbox(image.src, image.alt));
+    document.querySelectorAll('[data-lightbox]').forEach((button) => {
+        button.addEventListener('click', () => {
+            const image = button.querySelector('img');
+            openLightbox(image.src, image.alt);
+        });
     });
 
     // Language toggle
@@ -272,11 +295,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
     mobileMenuBtn?.addEventListener('click', () => {
         mobileMenu.classList.toggle('hidden');
+        const open = !mobileMenu.classList.contains('hidden');
+        mobileMenu.classList.toggle('open', open);
+        mobileMenuBtn.setAttribute('aria-expanded', String(open));
     });
 
     mobileMenu?.querySelectorAll('a').forEach(link => {
         link.addEventListener('click', () => {
             mobileMenu.classList.add('hidden');
+            mobileMenu.classList.remove('open');
+            mobileMenuBtn.setAttribute('aria-expanded', 'false');
         });
     });
 

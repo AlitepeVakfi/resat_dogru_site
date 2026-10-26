@@ -42,7 +42,7 @@
             }
         }
     </script>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=20261026-news-pages">
 </head>
 
 <body class="font-inter bg-white text-gray-800 antialiased">
@@ -52,7 +52,7 @@
         <nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
                 <a href="#hero" class="text-lg font-semibold text-navy">Dr. Reşat Doğru</a>
-                <button id="mobile-menu-btn" class="md:hidden p-2 text-gray-600 hover:text-navy" aria-label="Menü">
+                <button id="mobile-menu-btn" class="md:hidden p-2 min-w-11 min-h-11 text-gray-600 hover:text-navy" aria-label="Menü" aria-expanded="false" aria-controls="mobile-menu">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M4 6h16M4 12h16M4 18h16" />
@@ -161,98 +161,45 @@
                 <h2 class="text-3xl sm:text-4xl font-bold text-navy mb-4" data-i18n="news_title">Haberler</h2>
                 <div class="w-20 h-1 bg-navy mx-auto rounded-full"></div>
             </div>
-            <div class="space-y-10">
-                <article class="news-article bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
-                    <div class="grid lg:grid-cols-2">
-                        <img src="assets/images/news/genclik-ve-gelecek/foto_1.webp" alt="Gençlik ve Gelecek konferansının ardından Prof. Dr. Özcan Yeniçeri’ye plaket takdimi" class="w-full h-full min-h-72 object-cover" loading="lazy">
-                        <div class="p-7 sm:p-10 flex flex-col justify-center">
-                            <div class="flex flex-wrap items-center gap-3 text-xs font-semibold tracking-wider uppercase text-navy/60 mb-4"><time datetime="2026-10-24">24 Ekim 2026</time><span aria-hidden="true">•</span><span data-i18n="news_4_category">Konferans</span><span aria-hidden="true">•</span><span>Ali Tepe Vakfı</span></div>
-                            <h3 class="text-2xl sm:text-3xl font-bold text-navy leading-tight" data-i18n="news_4_title">“Gençlik ve Gelecek” konferansında buluşma</h3>
-                            <p class="mt-5 text-gray-600 leading-relaxed" data-i18n="news_4_summary">Dr. Reşat Doğru, Ali Tepe Vakfı’nda Prof. Dr. Özcan Yeniçeri’nin konuşmacı olarak katıldığı “Gençlik ve Gelecek” konulu konferansta yer aldı. Programın ardından Yeniçeri’ye teşekkür plaketi takdim etti.</p>
-                            <details class="news-details mt-6">
-                                <summary class="inline-flex cursor-pointer items-center text-sm font-semibold text-navy hover:text-navy-light" data-i18n="news_read_more">Haberi ve fotoğrafları görüntüle</summary>
-                                <div class="mt-6 space-y-4 text-gray-600 leading-relaxed">
-                                    <p data-i18n="news_4_body_1">Eski Devlet Bakanı Dr. Reşat Doğru, 24 Ekim 2026 Cumartesi günü saat 14.00’te Ankara’da, Ali Tepe Sağlık, Eğitim ve Teşvik Vakfı’nda düzenlenen “Gençlik ve Gelecek” konulu konferansa katıldı. Programın konuşmacısı Prof. Dr. Özcan Yeniçeri oldu.</p>
-                                    <p data-i18n="news_4_body_2">Vakfın mütevelli heyeti başkanlığını yürüten Doğru, konferansın ardından Yeniçeri’ye katılımı ve katkıları dolayısıyla teşekkür plaketi takdim etti.</p>
-                                    <p data-i18n="news_4_body_3">Plaket takdimi sırasında Doğru, Yeniçeri ve katılımcılar birlikte hatıra fotoğrafı çektirdi.</p>
-                                </div>
-                                <div class="news-gallery mt-7 grid grid-cols-2 gap-3">
-                                    <img src="assets/images/news/genclik-ve-gelecek/foto_2.webp" alt="Dr. Reşat Doğru ve katılımcılarla plaket takdiminden hatıra fotoğrafı" loading="lazy">
-                                    <img src="assets/images/news/genclik-ve-gelecek/foto_3.webp" alt="Gençlik ve Gelecek konferansında konuşmacı ve dinleyiciler" loading="lazy">
-                                </div>
-                            </details>
-                        </div>
-                    </div>
-                </article>
-                <article class="news-article bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
-                    <div class="grid lg:grid-cols-2">
-                        <img src="assets/images/news/acilis-programi/foto_1.webp" alt="2026-2027 eğitim ve öğretim yılı açılış programı" class="w-full h-full min-h-72 object-cover" loading="lazy">
-                        <div class="p-7 sm:p-10 flex flex-col justify-center">
-                            <div class="flex flex-wrap items-center gap-3 text-xs font-semibold tracking-wider uppercase text-navy/60 mb-4"><time datetime="2026-10-10">10 Ekim 2026</time><span aria-hidden="true">•</span><span data-i18n="news_3_category">Açılış Programı</span><span aria-hidden="true">•</span><span>Ali Tepe Vakfı</span></div>
-                            <h3 class="text-2xl sm:text-3xl font-bold text-navy leading-tight" data-i18n="news_3_title">Yeni eğitim yılının açılışında “Bir Milletin Sessiz Çığlığı”</h3>
-                            <p class="mt-5 text-gray-600 leading-relaxed" data-i18n="news_3_summary">Dr. Reşat Doğru, Ali Tepe Vakfı’nın 2026-2027 eğitim öğretim yılı açılışına katıldı. Açılış konuşmasının ardından, bağımlılıkları konu alan “Bir Milletin Sessiz Çığlığı” adlı kitabı Uzm. Dr. Sametcan Demirci ile birlikte tanıttı.</p>
-                            <details class="news-details mt-6">
-                                <summary class="inline-flex cursor-pointer items-center text-sm font-semibold text-navy hover:text-navy-light" data-i18n="news_read_more">Haberi ve fotoğrafları görüntüle</summary>
-                                <div class="mt-6 space-y-4 text-gray-600 leading-relaxed">
-                                    <p data-i18n="news_3_body_1">Ali Tepe Sağlık, Eğitim ve Teşvik Vakfı’nın yeni eğitim yılı açılışı, 10 Ekim 2026 Cumartesi günü saat 14.00’te vakıfta yapıldı. Eski Devlet Bakanı Dr. Reşat Doğru’nun katıldığı programda mütevelli heyeti üyeleri, öğrenciler ve davetliler bir araya geldi.</p>
-                                    <p data-i18n="news_3_body_2">Vakfın mütevelli heyeti başkanlığını da yürüten Doğru, programın açılış konuşmasını yaptı.</p>
-                                    <p data-i18n="news_3_body_3">Ardından Doğru ve Uzm. Dr. Sametcan Demirci, “Bir Milletin Sessiz Çığlığı” adlı kitabı tanıttı. Bağımlılıkları ele alan kitabın tanıtımında, bu sorunun toplumun geleceği açısından taşıdığı tehlikeler üzerinde duruldu ve bir beka sorunu olduğu vurgulandı.</p>
-                                    <p data-i18n="news_3_body_4">Kitaba katkıda bulunan öğrenciler, bağımlılıklar ve zararları üzerine kısa konuşmalar yaptı. Vakfın kendilerine sağladığı desteklere ilişkin düşüncelerini de paylaştı.</p>
-                                    <p data-i18n="news_3_body_5">Program, kitap tanıtımı ve öğrenci konuşmalarını izleyen kapanış konuşmasıyla sona erdi.</p>
-                                </div>
-                                <div class="news-gallery mt-7 grid grid-cols-2 gap-3">
-                                    <img src="assets/images/news/acilis-programi/foto_2.webp" alt="Açılış programından bir kare" loading="lazy">
-                                    <img src="assets/images/news/acilis-programi/foto_3.webp" alt="Açılış programına katılan davetliler" loading="lazy">
-                                </div>
-                            </details>
-                        </div>
-                    </div>
-                </article>
-                <article class="news-article bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
-                    <div class="grid lg:grid-cols-2">
-                        <img src="assets/images/news/tokat-aksam-yemegi/foto_1.webp" alt="Tokatlı hemşehrilerin akşam yemeği buluşmasından hatıra fotoğrafı" class="w-full h-full min-h-72 object-cover" loading="lazy">
-                        <div class="p-7 sm:p-10 flex flex-col justify-center">
-                            <div class="flex flex-wrap items-center gap-3 text-xs font-semibold tracking-wider uppercase text-navy/60 mb-4"><time datetime="2026-09-24">24 Eylül 2026</time><span aria-hidden="true">•</span><span data-i18n="news_2_category">Hemşehri Buluşması</span><span aria-hidden="true">•</span><span>Tokat</span></div>
-                            <h3 class="text-2xl sm:text-3xl font-bold text-navy leading-tight" data-i18n="news_2_title">Tokatlı hemşehrilerle akşam yemeği</h3>
-                            <p class="mt-5 text-gray-600 leading-relaxed" data-i18n="news_2_summary">Dr. Reşat Doğru, Tokat’ta hemşehrileriyle aynı sofrada bir araya geldi. Akşam boyunca Tokat’ın gündemi ve Ali Tepe Vakfı’nın eğitim ve sağlık çalışmaları üzerine sohbet edildi.</p>
-                            <details class="news-details mt-6">
-                                <summary class="inline-flex cursor-pointer items-center text-sm font-semibold text-navy hover:text-navy-light" data-i18n="news_read_more">Haberi ve fotoğrafları görüntüle</summary>
-                                <div class="mt-6 space-y-4 text-gray-600 leading-relaxed">
-                                    <p data-i18n="news_2_body_1">Eski Devlet Bakanı Dr. Reşat Doğru, 24 Eylül 2026’da Tokat’ta düzenlenen akşam yemeğinde hemşehrileriyle buluştu. Bahçede kurulan uzun sofrada yemek ve çay eşliğinde sohbet edildi.</p>
-                                    <p data-i18n="news_2_body_2">Tokat’ın güncel meselelerinin konuşulduğu yemekte katılımcılar görüş ve önerilerini paylaştı. Doğru’nun mütevelli heyeti başkanlığını yürüttüğü Ali Tepe Sağlık, Eğitim ve Teşvik Vakfı’nın çalışmaları da ele alındı.</p>
-                                    <p data-i18n="news_2_body_3">Buluşma, birlikte çekilen hatıra fotoğrafıyla sona erdi.</p>
-                                </div>
-                                <div class="news-gallery mt-7 grid grid-cols-2 sm:grid-cols-3 gap-3">
-                                    <img src="assets/images/news/tokat-aksam-yemegi/foto_2.webp" alt="Akşam yemeğinde uzun sofra çevresinde sohbet eden katılımcılar" loading="lazy">
-                                </div>
-                            </details>
-                        </div>
-                    </div>
-                </article>
-                <article class="news-article bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
-                    <div class="grid lg:grid-cols-2">
-                        <img src="assets/images/news/bagimlilikla-mucadele/foto_1.webp" alt="Tokat'ta bağımlılıkla mücadele buluşması" class="w-full h-full min-h-72 object-cover lg:order-2" loading="lazy">
-                        <div class="p-7 sm:p-10 flex flex-col justify-center lg:order-1">
-                            <div class="flex flex-wrap items-center gap-3 text-xs font-semibold tracking-wider uppercase text-navy/60 mb-4"><time datetime="2026-09-22">22 Eylül 2026</time><span aria-hidden="true">•</span><span data-i18n="news_1_category">Toplumsal Farkındalık</span></div>
-                            <h3 class="text-2xl sm:text-3xl font-bold text-navy leading-tight" data-i18n="news_1_title">Tokat’ta bağımlılıkla mücadele buluşması</h3>
-                            <p class="mt-5 text-gray-600 leading-relaxed" data-i18n="news_1_summary">Dr. Reşat Doğru, Tokat’ta sivil toplum temsilcileriyle bağımlılıkla mücadeleyi konuştu. Buluşmada uyuşturucu madde kullanımı, sanal kumar ve gençleri bu tehlikelerden korumanın yolları ele alındı.</p>
-                            <details class="news-details mt-6">
-                                <summary class="inline-flex cursor-pointer items-center text-sm font-semibold text-navy hover:text-navy-light" data-i18n="news_read_more">Haberi ve fotoğrafları görüntüle</summary>
-                                <div class="mt-6 space-y-4 text-gray-600 leading-relaxed">
-                                    <p data-i18n="news_1_body_1">Eski Devlet Bakanı Dr. Reşat Doğru, 22 Eylül 2026’da Tokat’ta düzenlenen bağımlılıkla mücadele buluşmasına konuşmacı olarak katıldı. Daha önce Bağımlılıkla Mücadele Komisyonu Başkanlığı da yapan Doğru, sivil toplum temsilcileriyle çözüm yolları üzerine görüşlerini paylaştı.</p>
-                                    <p data-i18n="news_1_body_2">Doğru, uyuşturucu madde kullanımının aileler ve toplum üzerindeki etkilerine değindi. Tedavide kişinin sosyal çevresinin önemli bir yeri olduğunu, bağımlılıkla mücadelenin toplumun ortak sorumluluğu olduğunu belirtti.</p>
-                                    <p data-i18n="news_1_body_3">Konuşmanın bir diğer konusu sanal kumardı. İnternet üzerinden kolayca erişilebilen kumarın maddi kayıpların yanı sıra psikolojik sorunlara ve sosyal ilişkilerde zarara yol açabildiğine dikkat çekti.</p>
-                                    <p data-i18n="news_1_body_4">Gençlerin korunması, farkındalığın artırılması ve kurumlar arası iş birliği de buluşmanın gündemindeydi. Programın ardından Doğru, “Bağ” ve “Bir Milletin Sessiz Çığlığı” adlı kitaplarını katılımcılar için imzaladı.</p>
-                                </div>
-                                <div class="news-gallery mt-7 grid grid-cols-2 gap-3">
-                                    <img src="assets/images/news/bagimlilikla-mucadele/foto_2.webp" alt="Bağımlılıkla mücadele buluşmasından fotoğraf 2" loading="lazy">
-                                    <img src="assets/images/news/bagimlilikla-mucadele/foto_3.webp" alt="Ali Tepe Vakfı" loading="lazy">
-                                </div>
-                            </details>
-                        </div>
-                    </div>
-                </article>
-            </div>
+            <!-- NEWS_CARDS_START -->
+<div class="news-list-grid"><article class="news-article news-card">
+    <a href="/haberler/genclik-ve-gelecek-konferansi/" class="news-card-cover" tabindex="-1" aria-hidden="true" style="--photo-focus: 50% 50%"><img src="/assets/images/news/genclik-ve-gelecek/foto_1.webp" alt="Gençlik ve Gelecek konferansının ardından Prof. Dr. Özcan Yeniçeri’ye plaket takdimi" data-news-photo="4:0" class="" loading="lazy" decoding="async"></a>
+    <div class="news-card-copy">
+        <div class="news-meta"><time datetime="2026-10-24" data-news-date>24 Ekim 2026</time><span aria-hidden="true">·</span><span class="" data-i18n="news_4_category">Konferans</span></div>
+        <h3><a href="/haberler/genclik-ve-gelecek-konferansi/" data-i18n="news_4_title">“Gençlik ve Gelecek” konferansında buluşma</a></h3>
+        <p class="news-card-summary" data-i18n="news_4_summary">Dr. Reşat Doğru, Ali Tepe Vakfı’nda Prof. Dr. Özcan Yeniçeri’nin konuşmacı olarak katıldığı “Gençlik ve Gelecek” konulu konferansta yer aldı. Programın ardından Yeniçeri’ye teşekkür plaketi takdim etti.</p>
+        <a href="/haberler/genclik-ve-gelecek-konferansi/" class="news-more"><span data-i18n="news_read_more">Habere git</span><span aria-hidden="true"> →</span></a>
+    </div>
+</article>
+<article class="news-article news-card">
+    <a href="/haberler/2026-2027-egitim-yili-acilisi/" class="news-card-cover" tabindex="-1" aria-hidden="true" style="--photo-focus: 50% 65%"><img src="/assets/images/news/acilis-programi/foto_1.webp" alt="2026-2027 eğitim ve öğretim yılı açılış programı" data-news-photo="3:0" class="" loading="lazy" decoding="async"></a>
+    <div class="news-card-copy">
+        <div class="news-meta"><time datetime="2026-10-10" data-news-date>10 Ekim 2026</time><span aria-hidden="true">·</span><span class="" data-i18n="news_3_category">Açılış Programı</span></div>
+        <h3><a href="/haberler/2026-2027-egitim-yili-acilisi/" data-i18n="news_3_title">Yeni eğitim yılının açılışında “Bir Milletin Sessiz Çığlığı”</a></h3>
+        <p class="news-card-summary" data-i18n="news_3_summary">Dr. Reşat Doğru, Ali Tepe Vakfı’nın 2026-2027 eğitim öğretim yılı açılışına katıldı. Açılış konuşmasının ardından, bağımlılıkları konu alan “Bir Milletin Sessiz Çığlığı” adlı kitabı Uzm. Dr. Sametcan Demirci ile birlikte tanıttı.</p>
+        <a href="/haberler/2026-2027-egitim-yili-acilisi/" class="news-more"><span data-i18n="news_read_more">Habere git</span><span aria-hidden="true"> →</span></a>
+    </div>
+</article>
+<article class="news-article news-card">
+    <a href="/haberler/tokatli-hemsehrilerle-aksam-yemegi/" class="news-card-cover" tabindex="-1" aria-hidden="true" style="--photo-focus: 50% 50%"><img src="/assets/images/news/tokat-aksam-yemegi/foto_1.webp" alt="Tokatlı hemşehrilerin akşam yemeği buluşmasından hatıra fotoğrafı" data-news-photo="2:0" class="" loading="lazy" decoding="async"></a>
+    <div class="news-card-copy">
+        <div class="news-meta"><time datetime="2026-09-24" data-news-date>24 Eylül 2026</time><span aria-hidden="true">·</span><span class="" data-i18n="news_2_category">Hemşehri Buluşması</span></div>
+        <h3><a href="/haberler/tokatli-hemsehrilerle-aksam-yemegi/" data-i18n="news_2_title">Tokatlı hemşehrilerle akşam yemeği</a></h3>
+        <p class="news-card-summary" data-i18n="news_2_summary">Dr. Reşat Doğru, Tokat’ta hemşehrileriyle aynı sofrada bir araya geldi. Akşam boyunca Tokat’ın gündemi ve Ali Tepe Vakfı’nın eğitim ve sağlık çalışmaları üzerine sohbet edildi.</p>
+        <a href="/haberler/tokatli-hemsehrilerle-aksam-yemegi/" class="news-more"><span data-i18n="news_read_more">Habere git</span><span aria-hidden="true"> →</span></a>
+    </div>
+</article>
+<article class="news-article news-card">
+    <a href="/haberler/tokatta-bagimlilikla-mucadele/" class="news-card-cover" tabindex="-1" aria-hidden="true" style="--photo-focus: 50% 50%"><img src="/assets/images/news/bagimlilikla-mucadele/foto_1.webp" alt="Tokat&#x27;ta bağımlılıkla mücadele buluşması" data-news-photo="1:0" class="" loading="lazy" decoding="async"></a>
+    <div class="news-card-copy">
+        <div class="news-meta"><time datetime="2026-09-22" data-news-date>22 Eylül 2026</time><span aria-hidden="true">·</span><span class="" data-i18n="news_1_category">Toplumsal Farkındalık</span></div>
+        <h3><a href="/haberler/tokatta-bagimlilikla-mucadele/" data-i18n="news_1_title">Tokat’ta bağımlılıkla mücadele buluşması</a></h3>
+        <p class="news-card-summary" data-i18n="news_1_summary">Dr. Reşat Doğru, Tokat’ta sivil toplum temsilcileriyle bağımlılıkla mücadeleyi konuştu. Buluşmada uyuşturucu madde kullanımı, sanal kumar ve gençleri bu tehlikelerden korumanın yolları ele alındı.</p>
+        <a href="/haberler/tokatta-bagimlilikla-mucadele/" class="news-more"><span data-i18n="news_read_more">Habere git</span><span aria-hidden="true"> →</span></a>
+    </div>
+</article></div>
+<!-- NEWS_CARDS_END -->
+            <div class="mt-10 text-center"><a href="/haberler/" class="news-more" data-i18n="news_all">Tüm haberler</a></div>
         </div>
     </section>
 
@@ -619,7 +566,7 @@
     <!-- Lightbox Modal -->
     <div id="lightbox" class="fixed inset-0 bg-black/90 z-50 hidden items-center justify-center">
         <button id="lightbox-close" class="absolute top-6 right-6 text-white hover:text-gray-300 transition-colors"
-            aria-label="Kapat">
+            aria-label="Kapat" data-i18n-aria-label="news_close_photo">
             <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
             </svg>
@@ -630,7 +577,7 @@
         </div>
     </div>
 
-    <script src="script.js?v=20261025-genclik-ve-gelecek-afissiz"></script>
+    <script src="script.js?v=20261026-news-pages"></script>
 </body>
 
 </html>
