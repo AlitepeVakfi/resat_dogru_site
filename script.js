@@ -11,7 +11,7 @@ let currentLang = 'tr';
 // =====================
 async function loadContent() {
     try {
-        const response = await fetch('/content.json?v=20261026-news-pages', { cache: 'no-cache' });
+        const response = await fetch('/content.json?v=20261116-gonul-iletisim-dili-3', { cache: 'no-cache' });
         const data = await response.json();
         translations = data;
 
